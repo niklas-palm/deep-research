@@ -1,0 +1,104 @@
+{
+  "trace_id": "f64949b3ba28347ac5bc660f7c58c3fc",
+  "generated_at": "2026-04-22T07:39:21.162464+00:00",
+  "report_scores": [
+    {
+      "name": "structure_compliance",
+      "value": 1,
+      "data_type": "BOOLEAN",
+      "comment": "all checks passed",
+      "observation_id": null,
+      "researcher_id": null
+    },
+    {
+      "name": "citation_density",
+      "value": 1.0,
+      "data_type": "NUMERIC",
+      "comment": "73 inline links across 35 paragraphs",
+      "observation_id": null,
+      "researcher_id": null
+    },
+    {
+      "name": "source_diversity",
+      "value": 1.0,
+      "data_type": "NUMERIC",
+      "comment": "55 distinct sources across 2860 words",
+      "observation_id": null,
+      "researcher_id": null
+    },
+    {
+      "name": "data_specificity",
+      "value": 1.0,
+      "data_type": "NUMERIC",
+      "comment": "82 currency amounts, 58 percentages, 6 tickers, 123 year refs across 2860 words",
+      "observation_id": null,
+      "researcher_id": null
+    },
+    {
+      "name": "plan_quality",
+      "value": 5,
+      "data_type": "NUMERIC",
+      "comment": "The plan comprehensively covers all seven core dimensions required for an institutional thematic investment report\u2014market sizing, industry structure and value chain, key players across the full stack, enterprise adoption catalysts, risks and headwinds, regulatory and ESG landscape (with EU/Nordic specificity), and actionable investment implications including valuations, analyst positioning, and portfolio construction\u2014with well-delineated, minimally overlapping subtasks and consistent emphasis on 2025-2026 data and sourcing rigor.",
+      "observation_id": null,
+      "researcher_id": null
+    }
+  ],
+  "researcher_scores": [
+    {
+      "name": "research_quality",
+      "value": 3,
+      "data_type": "NUMERIC",
+      "comment": "The report provides reasonably specific market size figures and CAGRs from named research firms with URLs, but relies exclusively on paid market research aggregators (Grand View, Mordor, MarketsandMarkets) rather than primary sources\u2014notably absent are actual Gartner/IDC primary reports, company filings, or SEC disclosures\u2014and it lacks named public company tickers, bear-case risks, and genuine Gartner/IDC agentic-specific spending forecasts that were explicitly requested, limiting its utility for an investment memo.",
+      "observation_id": "93bea99c789066be",
+      "researcher_id": "r-62f5cf57"
+    },
+    {
+      "name": "research_quality",
+      "value": 3,
+      "data_type": "NUMERIC",
+      "comment": "The report contains useful specific data points (NVIDIA margins, token pricing, market share figures) and named companies, but sources lean heavily on blogs, ARK Invest, and Medium rather than primary filings or authoritative research, several metrics lack clear attribution or appear to conflate forward estimates with actuals, the YAML is truncated mid-sentence, and the analysis is notably thin on the middleware/orchestration and application layers despite those being explicitly requested, limiting its reliability for an investment memo without significant additional verification.",
+      "observation_id": "33c88a5ac0c97db2",
+      "researcher_id": "r-360f51f7"
+    },
+    {
+      "name": "research_quality",
+      "value": 3,
+      "data_type": "NUMERIC",
+      "comment": "The report contains useful company-level data with tickers, market caps, and revenue figures, but source quality is weak (LinkedIn posts, AI funding trackers, and unverifiable URLs for future-dated filings like 'Q4 FY2026' and 'Amazon Q4 2025' that appear fabricated or speculative), several figures are internally inconsistent or implausible (e.g., AWS Q4 2025 revenue listed as $128.7B which conflates full-year with quarterly), risk factors and bear cases are entirely absent, and the report is truncated mid-sentence on xAI, leaving multiple categories incomplete.",
+      "observation_id": "b1541c0d048b6d03",
+      "researcher_id": "r-a06ae807"
+    },
+    {
+      "name": "research_quality",
+      "value": 3,
+      "data_type": "NUMERIC",
+      "comment": "The report contains useful directional data and some compelling specifics (JPMorgan COiN, Gartner 40% prediction, Google Cloud 52% deployment stat, 171-192% ROI figures) with credible consultancy sources, but critically lacks company filings or primary regulatory sources, omits ticker symbols for public companies, truncates the most valuable case study section mid-sentence, provides no Salesforce Agentforce/Microsoft Copilot/ServiceNow revenue figures explicitly requested, and the ROI figures (171-192%) from 'Landbase/Arcade data' are low-quality sources that would require significant verification before appearing in an investment memo.",
+      "observation_id": "823b2111d8dbd4b8",
+      "researcher_id": "r-a334b820"
+    },
+    {
+      "name": "research_quality",
+      "value": 3,
+      "data_type": "NUMERIC",
+      "comment": "The YAML is rich in specific statistics and named examples (Gartner forecasts, CVE numbers, token pricing benchmarks like DeepSeek R1 vs. GPT-4), but source quality is dominated by blogs and Medium posts rather than primary regulatory filings, sell-side research, or company 10-Ks, no public company tickers are cited, the commercial/competitive/macro/geopolitical sections appear truncated or missing entirely, and there is no bull-side counterbalance, limiting PM utility.",
+      "observation_id": "793205f0a0c586c1",
+      "researcher_id": "r-7b78744b"
+    },
+    {
+      "name": "research_quality",
+      "value": 3,
+      "data_type": "NUMERIC",
+      "comment": "The output provides solid regulatory specificity (Articles 8-15, 57, August 2026 timelines, EDPS citations) and some useful cost figures (30-40% compliance budgets, $5K-$25K monthly opex, $3.6B-$171B market CAGR), but falls short of PM-ready quality due to incomplete findings (the EDPS section is truncated mid-sentence), absence of named company tickers, thin coverage of Nordic-specific strategies, US regulatory landscape, liability frameworks, and ESG/CSRD sections that appear missing entirely, with sources leaning on secondary aggregators (artificialintelligenceact.eu) rather than primary regulatory documents.",
+      "observation_id": "640c114159513b58",
+      "researcher_id": "r-8c25e0b4"
+    },
+    {
+      "name": "research_quality",
+      "value": 3,
+      "data_type": "NUMERIC",
+      "comment": "The output contains impressive specificity (named tickers, revenue figures, valuation multiples, analyst targets) and covers most requested dimensions, but critically fails on source quality\u2014relying primarily on blogs (Finro, Intellectia.ai) and investor relations press releases rather than primary SEC filings, sell-side research reports from named banks (Goldman, Morgan Stanley, JPMorgan specifics are absent despite being requested), or authoritative data providers; additionally, several figures appear internally inconsistent (Anthropic at both $380B valuation and '$30B+ annualized revenue' implying ~12x yet also citing '$800B+ valuation offers,' and Cursor valuation cited as both $29.3B and targeting $50B pre-money without clear reconciliation), undermining confidence for an investment memo.",
+      "observation_id": "c5b02b374ba3a933",
+      "researcher_id": "r-32bb7e12"
+    }
+  ]
+}

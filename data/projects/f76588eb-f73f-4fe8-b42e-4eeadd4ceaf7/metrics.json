@@ -1,0 +1,104 @@
+{
+  "trace_id": "0b86f69bc42508a6886929612ebf1817",
+  "generated_at": "2026-04-22T08:03:54.462212+00:00",
+  "report_scores": [
+    {
+      "name": "structure_compliance",
+      "value": 1,
+      "data_type": "BOOLEAN",
+      "comment": "all checks passed",
+      "observation_id": null,
+      "researcher_id": null
+    },
+    {
+      "name": "citation_density",
+      "value": 0.88,
+      "data_type": "NUMERIC",
+      "comment": "35 inline links across 40 paragraphs",
+      "observation_id": null,
+      "researcher_id": null
+    },
+    {
+      "name": "source_diversity",
+      "value": 1.0,
+      "data_type": "NUMERIC",
+      "comment": "29 distinct sources across 3304 words",
+      "observation_id": null,
+      "researcher_id": null
+    },
+    {
+      "name": "data_specificity",
+      "value": 1.0,
+      "data_type": "NUMERIC",
+      "comment": "81 currency amounts, 71 percentages, 13 tickers, 87 year refs across 3304 words",
+      "observation_id": null,
+      "researcher_id": null
+    },
+    {
+      "name": "plan_quality",
+      "value": 4,
+      "data_type": "NUMERIC",
+      "comment": "The plan comprehensively covers market sizing, key players (public and private), regulatory/ESG, industry structure, and investment implications with strong specificity, but lacks a dedicated task on valuation risks/headwinds (e.g., macro risks, competitive threats from US hyperscalers, EU fragmentation risks) and investment catalysts as standalone dimensions, with those elements only appearing incidentally across other tasks.",
+      "observation_id": null,
+      "researcher_id": null
+    }
+  ],
+  "researcher_scores": [
+    {
+      "name": "research_quality",
+      "value": 3,
+      "data_type": "NUMERIC",
+      "comment": "The findings contain impressive numerical specificity (e.g., $21.8B, 73% late-stage US dominance, \u20ac6.2B agentic AI raises) and reasonable source attribution, but source quality is weak for institutional use \u2014 relying heavily on a single vendor report (Prosus/Dealroom), market research firms (Grand View Research, Fortune Business Insights) of questionable methodology, and URLs that appear partially fabricated or unverifiable (e.g., SUERF April 2026 policy brief, OECD February 2026 announcement), with no named public-company tickers, no bear-case risks surfaced (regulatory, talent flight, AI Act compliance costs), and the EU public funding section appears truncated, undermining PM-readiness.",
+      "observation_id": "542ffe33ff4f6b4b",
+      "researcher_id": "r-1a045c60"
+    },
+    {
+      "name": "research_quality",
+      "value": 4,
+      "data_type": "NUMERIC",
+      "comment": "The output delivers strong specificity with concrete valuations, funding rounds, revenue metrics, named tickers (ETR:SAP, AMS:ASML, EPA:DSY), and named investors across both public and private companies, with reasonable source citations including company filings and credible financial press, though source quality leans toward financial press/blogs rather than primary regulatory or exchange filings, the Aleph Alpha insolvency finding adds useful bearish balance, and minor credibility concerns arise from unusually precise ARR figures (\u20ac400M for Mistral) attributed to a single secondary source (Sacra) without corroboration from primary filings.",
+      "observation_id": "5b60ce48586bab72",
+      "researcher_id": "r-fdd0f517"
+    },
+    {
+      "name": "research_quality",
+      "value": 3,
+      "data_type": "NUMERIC",
+      "comment": "The output demonstrates solid regulatory specificity (named articles, dates, thresholds like 10^25 FLOPs, fine levels of \u20ac35M/7% turnover) and cites credible primary sources (EU AI Act text, ACM Europe TPC), but is truncated mid-sentence in the final finding, omits promised quantitative compliance cost estimates, lacks named company tickers or specific European vs. non-European competitive dynamics with measurable moats, and the AI Liability Directive withdrawal and GDPR Article 22 sections appear missing entirely \u2014 making it incomplete for a PM-ready investment memo despite strong structural framing.",
+      "observation_id": "fb6140ba22521aae",
+      "researcher_id": "r-51a9b7b6"
+    },
+    {
+      "name": "research_quality",
+      "value": 4,
+      "data_type": "NUMERIC",
+      "comment": "The report delivers strong specificity with named companies, funding figures, acquisition prices ($665M AMD/Silo AI), survey statistics (54% experimenting, 4% achieving 5x ROI, 40-50% vs 8-11% off-the-shelf tool spend), and primary consultancy sources (Deloitte, BCG with URLs and dates), surfacing both opportunity and bubble-risk perspectives, though it loses a point for lacking public company tickers, incomplete source truncation, absence of primary regulatory citations for NIS2 implementation status, and thin coverage of sovereign compute initiatives and Tracxn's $1.13B/18-company dataset despite being explicitly tasked with those items.",
+      "observation_id": "3143bfb161bd8a5a",
+      "researcher_id": "r-45b4f88e"
+    },
+    {
+      "name": "research_quality",
+      "value": 3,
+      "data_type": "NUMERIC",
+      "comment": "The report contains useful specifics (\u20ac200B InvestAI, \u20ac20B for AI Gigafactories, OVHcloud \u20ac1B+ revenue, 5% EU vs 75% US compute share, 70% hyperscaler dominance) with reasonable primary source citations, but is weakened by incomplete data (cloud market share section cuts off mid-sentence), missing equity tickers for publicly traded names (ASML: ASML NA, OVHcloud: OVH FP, Northern Data: NB2 GY), thin coverage on EU Chips Act progress, GAIA-X, and European semiconductor strategy despite being explicitly tasked, and lacks bear-case risk analysis on execution/funding gaps that would be essential for an investment memo.",
+      "observation_id": "fc3fdf6a2543d4bd",
+      "researcher_id": "r-5993e523"
+    },
+    {
+      "name": "research_quality",
+      "value": 3,
+      "data_type": "NUMERIC",
+      "comment": "The output contains useful directional data points (43% vs 32% adoption gap, 10-20% productivity gains, 70% GenAI/agentic share in banking) with named companies and some sourcing, but falls short of PM-ready quality due to incomplete YAML (truncated automotive/manufacturing section), thin ROI metrics lacking company-specific financial materiality, absence of stock tickers for public companies (ING AS, BNP.PA, DBK.DE, BMW.DE, SIE.DE), heavy reliance on consultancy/think-tank sources rather than primary filings or regulators, and limited bear-case or risk framing around EU AI Act compliance costs or competitive displacement scenarios.",
+      "observation_id": "de8e0b5a40c903c4",
+      "researcher_id": "r-3710b251"
+    },
+    {
+      "name": "research_quality",
+      "value": 3,
+      "data_type": "NUMERIC",
+      "comment": "The report provides useful directional color with some concrete metrics (SAP CCB +28%, Siemens data center +35%, Questa One \u20ac200M, forward P/E figures) and named tickers, but suffers from critical gaps: price targets are vague or contradictory (SAP avg PT listed as \u20ac160\u2013170 yet stock at \u20ac181), several key companies from the task (ASML, Capgemini, Dassault, Prosus, OVHcloud, Sopra Steria, UiPath, ETFs) are either absent or cut off mid-sentence, AI revenue percentages are largely estimated rather than disclosed, source quality relies predominantly on Yahoo Finance and press releases rather than company filings or sell-side research, and the SaaS Reset impact is mentioned but not quantitatively analyzed across the portfolio.",
+      "observation_id": "cd6e4ad75fa9c297",
+      "researcher_id": "r-8ce663f0"
+    }
+  ]
+}
