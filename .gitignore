@@ -26,3 +26,6 @@ backend/.env
 
 # OS
 .DS_Store
+
+# Local-only design brief
+styleguide.md
