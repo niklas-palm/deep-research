@@ -1,0 +1,24 @@
+[project]
+name = "deep-research"
+version = "0.1.0"
+description = "AI-powered deep research platform"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi==0.115.5",
+    "uvicorn[standard]==0.32.1",
+    "pydantic>=2.10.3",
+    "strands-agents[otel]>=1.15.0",
+    "strands-agents-tools>=0.2.12",
+    "langfuse>=4.0.0",
+    "boto3>=1.40.50",
+    "requests>=2.32.3",
+    "python-dotenv==1.0.0",
+    "pyyaml>=6.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
